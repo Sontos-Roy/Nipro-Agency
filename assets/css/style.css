@@ -108,6 +108,10 @@ a{
     padding: 200px 0;
     color: #ffffff;
 }
+.slider-content h1{
+    font-family:Lato-Bold ;
+    font-size: 50px; 
+}
 .slider-content p{
     margin-top: 40px;
     margin-bottom: 50px;
@@ -227,20 +231,312 @@ a{
 /* about us section start  */
 .about-us{
     padding: 80px 0;
+    background: #f8f8f8;
 }
-.about-img img{
+.my-nav li{
+    margin: 0 5px;
+}
+.nav-button {
+    color: #8e8e8e !important;
+	background: #f8f8f8 !important;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.my-nav .nav-button.active, .my-nav .show > .nav-link {
+	border: 1px solid #333333;
+    border-radius: 0;
+}
+.work-img-gallary{
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.work-img-gallary img{
+   width: 100%;
+}
+.middle-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
 }
-.p-about1{
-    margin-bottom: 30px;
-    line-height: 26px;
+.work-img-gallary:hover .middle-icon{
+    visibility: visible;
+    opacity: 1;
+    background: rgba(0, 0, 0, .5);
 }
-.p-about2{
-    line-height: 26px;
+.middle-icon i{
+    margin-top: -40px;
+    font-size: 60px;
+    color: #ffffff;
+}
+.bottom-title{
+    padding: 15px 30px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom:-55px;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.work-img-gallary:hover .bottom-title{
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+}
+.bottom-title h2{
+    font-family:Lato-Bold ;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
 }
 .about-btn{
-    margin-top: 30px;
+    margin-top:30px;
     background: transparent;
     border: 1px solid #333333;
 }
 /* about us section end  */
+/* choose us section start  */
+.why-choose-us{
+    padding-bottom: 80px;
+
+}
+.choose-item{
+    margin-top: 30px;
+    padding:25px 0;
+    border-bottom: 1px solid #8e8e8e;
+}
+.choose-item:hover{
+    border-color: #333333;
+}
+.c-icon{
+}
+.c-icon i{
+    margin-top:-15px;
+    font-size: 60px;
+}
+.choose-item:hover .c-icon i{
+    color: #333333;
+}
+.c-heading{}
+.c-heading h2{
+    font-family:Lato-Bold ;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.choose-item:hover .c-heading h2{
+    color: #333333;
+}
+.c-paragraph{
+    margin-top: 20px;
+}
+.c-paragraph p{}
+/* choose us section end  */
+
+/* team section start  */
+.our-team{
+    background: url(../imgs/t-bg.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.team-member{
+    margin-top: 40px;
+}
+.t-img{
+    position: relative;
+}
+.t-img img{
+    width: 100%;
+}
+.member-bio{
+    padding: 10px 15px;
+    background: #ffffff;
+}
+.member-bio h2{
+    font-family:Lato-Bold ;
+    font-size: 16px;
+    color: #333333;
+    text-transform: uppercase;
+
+}
+.member-bio p{
+    margin-bottom: 0;
+}
+.team-social{
+    
+}
+.team-social ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 120px;
+	position: absolute;
+	top: -220px;
+	left: 0;
+	bottom:0;
+	margin: auto;
+	background: #ffffff;
+	text-align: center;
+	visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.team-member:hover ul{
+    visibility: visible;
+    opacity: 1;
+   top: -30px;
+
+}
+.team-social ul li{
+   
+}
+.team-social ul li a{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: #8e8e8e !important;
+    border-right: 1px solid transparent;
+    
+}
+.team-social ul li a:hover{
+    border-right: 1px solid #333333;
+    color: #333333 !important;
+    
+}
+/* team section end  */
+/* who work with us section start  */
+.pricing-section{
+    padding-bottom: 80px;
+}
+.price-box{
+    margin-top: 40px;
+    padding: 40px 25px;
+    border: 1px solid #8e8e8e;
+}
+.price-box:hover{
+    border-color: #333333;
+}
+.price-box h3{
+    margin: 20px 0;
+    color: #333333;
+    font-size: 30px;
+}
+.price-box h3 span{
+    color: #8e8e8e;
+    font-size: 18px;
+}
+.p-head{
+    margin-top: -52px;
+}
+.p-head h2{
+    display: inline-block;
+    background: #ffffff;
+    font-family:Lato-Bold ;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.p-list{}
+.p-list ul{}
+.p-list ul li{
+    margin: 12px 0;
+}
+/* who work with us section end  */
+/* alert section start  */
+.alert1{
+    padding: 30px 0;
+    background-color: #f8f8f8;
+}
+.a-text{
+}
+.a-text h1{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* alert section end  */
+
+/* contact css start */
+.contact{
+    padding: 80px 0;
+}
+/* contact css end */
+.contact-wrapper{
+    margin: 20px 0;
+    border: 1px solid #8e8e8e;
+}
+.contact-wrapper h1{
+    position: relative;
+    top: -18px;
+    padding:  0 10px;
+    font-size: 30px;
+    display: inline-block;
+    background: white;
+    color: #333333;
+    text-transform: uppercase;
+}
+.c-form{
+    padding:20px 50px;
+}
+.fast-last-name{
+    margin-top: 40px;
+    border: none !important;
+    border-bottom: 1px solid #8e8e8e  !important;
+    border-radius:0;
+}
+.fast-last-name:focus{
+    box-shadow: none;
+    border-bottom: 1px solid #333333  !important;
+}
+
+
+/* contact social css start */
+.c-social{
+    background: url(../imgs/contact-bg-img.jpg) no-repeat center;
+    background-size: cover;
+}
+.cs-social{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.cs-social ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: .4s;
+}
+.cs-social ul li a:hover{
+    background: #ffffff;
+    color: #333333;
+}
+/* contact social css end */
+
+/* footer section start  */
+.footer{
+    border-top: 1px solid #ffffff;
+    padding: 30px 0;
+}
+.footer-link ul li a{
+    color: #ffffff !important;
+}
+
+/* footer section end  */
