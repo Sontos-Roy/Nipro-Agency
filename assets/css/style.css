@@ -97,7 +97,7 @@ a{
     box-shadow: none;
 }
 
-/* header css end  */   
+/* header css end  */
 
 /* slider section start  */
 .slider{
@@ -110,7 +110,7 @@ a{
 }
 .slider-content h1{
     font-family:Lato-Bold ;
-    font-size: 50px; 
+    font-size: 50px;
 }
 .slider-content p{
     margin-top: 40px;
@@ -374,7 +374,7 @@ a{
     margin-bottom: 0;
 }
 .team-social{
-    
+
 }
 .team-social ul {
 	display: flex;
@@ -399,7 +399,7 @@ a{
 
 }
 .team-social ul li{
-   
+
 }
 .team-social ul li a{
     padding: 10px;
@@ -408,12 +408,12 @@ a{
     font-size: 18px;
     color: #8e8e8e !important;
     border-right: 1px solid transparent;
-    
+
 }
 .team-social ul li a:hover{
     border-right: 1px solid #333333;
     color: #333333 !important;
-    
+
 }
 /* team section end  */
 /* who work with us section start  */
